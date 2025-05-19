@@ -7,8 +7,8 @@ import 'package:flutter/widgets.dart';void main() {
       child: Text (  
         'Hello, World!',
         textDirection: TextDirection.ltr,
-        style: TextStyle(fontSize: 32, color: Colors.)
+        style: TextStyle(fontSize: 32, color: Colors.white),
       )
     )
-  )
+  );
 }
