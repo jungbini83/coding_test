@@ -6,7 +6,8 @@ import 'package:flutter/widgets.dart';void main() {
     const Center(    
       child: Text (  
         'Hello, World!',
-        TextDirection: Text
+        textDirection: TextDirection.ltr,
+        style: TextStyle(fontSize: 32, color: Colors.)
       )
     )
   )
