@@ -3,4 +3,10 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 // 1단계
-class 
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  Widget build(BuildContext context) {
+    return MaterialApp();
+  }
+}
