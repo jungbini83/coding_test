@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(   
+      home: Scaffold(
         // SafeArea: OS의 시스템 UI요소와 겹치지 않도록 위젯을 배치
-        body:
-      )
-    )
+        body: SafeArea(child: Text('Hello, World!')),
+      ),
+    );
   }
 }
